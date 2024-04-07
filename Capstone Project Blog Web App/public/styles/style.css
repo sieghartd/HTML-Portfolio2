@@ -5,19 +5,26 @@
      min-height: 100vh;
    } */
 
-   body {
+   /* body {
     background-image: url("/images/29d.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 100vh;
      /* position: absolute; */
-   }
+   /* } */ 
 
-#bPost {
-    /* width: 500px;
-    height: 500px; */
+/* #bPost {
+    width: 500px;
+    height: 500px;
     justify-content: center;
     align-items: center;
     margin-left: 300px;
     
+} */
+
+#backgroundImage {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  position: absolute;
 }
