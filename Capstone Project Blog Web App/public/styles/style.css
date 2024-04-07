@@ -1,0 +1,23 @@
+/* .container {
+    background-image: url("/images/29d.jpg");
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+     min-height: 100vh;
+   } */
+
+   body {
+    background-image: url("/images/29d.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+     /* position: absolute; */
+   }
+
+#bPost {
+    /* width: 500px;
+    height: 500px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    
+}

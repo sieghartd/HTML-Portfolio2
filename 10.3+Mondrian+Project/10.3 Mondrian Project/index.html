@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container {
+      display: grid;
+      height: 748px;
+      width: 748px;
+      grid-template-columns:repeat(7, 100px);
+      grid-template-rows: repeat(8, 100px);
+      /* gap: 9px; */
+    }
+
+    .black {
+      background-color: black;
+      border: 5px solid black;
+    }
+    
+
+    .white {
+      background-color: #F0F1EC;   
+      border: 10px solid black;
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+ 
+    }
+
+    .red {
+      background-color: #E72F24 ;
+      grid-column: span 4;
+      grid-row: span 4;
+      /* border: 5px solid black; */
+      border-bottom: 10px solid black;
+      border-left: 5px solid black;
+      border-right: 5px solid black;
+    }
+
+    .blue {
+      background-color: #004592;
+      border: 10px solid black;
+    }
+
+    /* .white1 {
+      background-color: white;
+      height: 100px;
+      width: 100px;
+      border-right: 10px solid black;
+    } */
+
+    #first-white {
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      border-right: 10px solid black;
+      border-bottom: 10px solid black;
+      border-top: transparent;
+      border-left: transparent;
+    }
+
+    #first-yellow {
+      background-color: #F9D01E;
+      grid-column: span 2;
+      border-right: 10px solid black;
+      /* border-left: 5px solid black; */
+      border-bottom: 10px solid black;
+    }
+
+    #second-white {
+      background-color: #F0F1EC;
+      grid-column: span 3;
+      border-right: 10px solid black;
+      border-top: transparent;
+      border-left: transparent;
+    }
+
+    #second-yellow {
+      background-color: #F9D01E;
+      grid-column: span 2;
+      grid-row: span 2;
+      border-right: 10px solid black;
+      border-bottom: 10px solid black;
+      border-top: transparent;
+      border-left: 5px solid black;
+    }
+
+    #third-white {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      border-right: 5px solid black;
+      border-top: transparent;
+      border-left: transparent;
+    }
+
+    #fourth-white {
+      background-color: #F0F1EC;
+      grid-row: span 3;
+      border-right: 5px solid black;
+      border-top: transparent;
+      border-left: transparent;
+    }
+
+    #fifth-white {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      /* border-right: 5px solid black; */
+      border-top: transparent;
+      border-left: 5px solid black;
+    }
+
+    #sixth-white {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      /* border-right: 5px solid black; */
+      border-top: transparent;
+      border-left: transparent;
+    }
+
+    #first-black {
+      background-color: black;
+      grid-row: span 2;
+      grid-column: span 2;
+      border-right: 5px solid black;
+      border-top: transparent;
+      border-left: transparent;
+    }
+
+    #seventh-white {
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      /* border-right: 5px solid black; */
+      border-top: transparent;
+      border-left: transparent;
+      border-bottom: 5px solid black;
+    }
+
+    #eighth-white {
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      /* border-right: 5px solid black; */
+      border-top: transparent;
+      border-left: transparent;
+      border-bottom: 5px solid black;
+    }
+
+    #third-yellow {
+      background-color: #F9D01E;
+      grid-row: span 2;
+      border-right: 5px solid black;
+      border-top: transparent;
+      border-left: transparent;
+    }
+
+    #ninth-white {
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      border-right: 5px solid black;
+      border-top: 5px solid black;
+      border-left: transparent;
+    }
+
+    #first-blue {
+      background-color: #004592;
+      grid-column: span 2;
+      grid-row: span 2;
+      border: 5px solid black;
+    }
+
+    #second-black {
+      background-color: black;
+      grid-column: span 2;
+      border: 5px solid black;
+    }
+
+    #tenth-white {
+      background-color: #F0F1EC;
+      border: 5px solid black;
+      grid-column: span 2;
+
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="white" id="first-white"></div>
+    <div class="white" id ="second-white"></div>
+    <div class="yellow" id ="first-yellow"></div>
+    <div class="white" id="third-white"></div>
+    <div class="red"></div>
+    <div class="yellow" id ="second-yellow"></div>
+    <div class="white" id="fourth-white"></div>
+    <div class="white" id="fifth-white"></div>
+    <div class="white" id="sixth-white"></div>
+    <div class="black" id="first-black"></div>
+    <div class="white" id="seventh-white"></div>
+    <div class="white" id="eighth-white"></div>
+    <!-- <div class="white"></div> -->
+    <div class="yellow" id="third-yellow"></div>
+    <div class="white" id="ninth-white"></div>
+    <div class="blue" id="first-blue"></div>
+    <div class="white" id="tenth-white"></div>
+    <div class="black" id="second-black"></div>
+    <!-- <div class="blue"></div> -->
+    <!-- <div class="red"></div> -->
+  </div>
+</body>
+
+</html>
