@@ -13,8 +13,6 @@
   position:fixed;
   top:0;
   width:100%;
-  
-  
 }
 
 
@@ -53,13 +51,6 @@ body{
 }
 
 
-#home >div{
-  background:url(./image/hero-background.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:0px 0px;  
-}
-
 h1{
   display:flex;
   flex-direction: column; 
@@ -81,7 +72,6 @@ h1{
       color:#14213d;
       padding:3rem 3rem 5rem 3rem;
       letter-spacing: 0.2rem;
-      
   }
 
   @media(max-width:1200px){
@@ -97,7 +87,6 @@ h1{
   /********************************************************************/
 
 .about{
-  
   display:grid;
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -113,7 +102,6 @@ h1{
   justify-content: center;
   font-size: 5rem;
   color:#14213d;
-  
 
 }
 
@@ -128,8 +116,7 @@ h1{
 
 .about>img{    
   grid-row-start: span 2;
-  width:250px;
-
+  width:250px
 }
 
 @media(max-width:1200px){
@@ -184,9 +171,8 @@ h4{
 hr{
   border: dotted fca311 6px;
   border-bottom: none;
-  width: 40%;
+  width: 50%;
   margin: 50px;
-  
 }
 
 @media(max-width:1200px)
