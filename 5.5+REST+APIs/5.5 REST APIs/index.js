@@ -40,8 +40,7 @@ app.post("/post-secret", async (req, res) => {
   res.render("index.ejs", {content: JSON.stringify(result.data)});
   } catch (error) {
   res.render("index.ejs", {content: JSON.stringify(result.data)});
-  }
-  
+  } 
 });
 
 app.post("/put-secret", async (req, res) => {
