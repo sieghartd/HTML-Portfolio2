@@ -12,14 +12,13 @@ app.get("/", (req, res) => {
     res.render("index.ejs");
 });
 
-app.get('/editor', (req, res) => {
-    res.send('<textarea id="post"></textarea>');
+app.get('/view', (req, res) => {
+    res.render('view.ejs');
 });
 
-app.get("/blog", (req, res) => {
-    const post = req.query.postl
-    res.send(`<h2>${post}</h2>`);
-});
+app.get('/post', (req, res) => {
+    res.render('post.ejs');
+   });
 
 app.listen(3000, () => {
     console.log('Blog is running on port 3000');

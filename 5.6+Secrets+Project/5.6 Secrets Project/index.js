@@ -6,8 +6,6 @@ import axios from "axios";
 const app = express();
 const port = 3000;
 const API_URL = "https://secrets-api.appbrewery.com";
-
-
 // 3. Use the public folder for static files.
 app.use(express.static("public"));
 
