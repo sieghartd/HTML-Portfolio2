@@ -1,30 +1,90 @@
-/* .container {
-    background-image: url("/images/29d.jpg");
-    background-repeat: no-repeat;
-     background-size: 100% 100%;
-     min-height: 100vh;
-   } */
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-   /* body {
-    background-image: url("/images/29d.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 100vh;
-     /* position: absolute; */
-   /* } */ 
+body {
+  color: green;
+  justify-content: center;
+  align-items: center;
+}
 
-/* #bPost {
-    width: 500px;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 300px;
-    
-} */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aPost {
+width: 300;
+}
+
+#siteName {
+  color: green;
+}
+
+#blueLink {
+  color: green;
+}
+
+#homeLink {
+  color: green;
+}
+
+#taskBar {
+  color: green;
+}
+
+li {
+  color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+#createLink {
+  color: green;
+}
 
 #backgroundImage {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 100vh;
   position: absolute;
+}
+
+#postSubmitButton {
+  justify-content: center;
+  align-items: center;
+}
+
+#blogTextBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200%;
+}
+
+#formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  background-color: black;
+  /* color: white; */
+}
+
+#postPage {
+  background-color: black;
+  background-size: cover;
 }
